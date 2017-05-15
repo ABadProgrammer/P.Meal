@@ -1,0 +1,178 @@
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes a {
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    color: aqua;
+    background-color: #F4E3B2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande";
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+header {
+    background-color: #EFC88B;
+    position: relative;
+}
+
+.linkentrar{
+    color:aliceblue;
+}
+
+.linkentrar2{
+    color:darkslategrey;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    color: black;
+}
+
+footer {
+    background-color: #EFC88B;
+}
+
+footer .container {
+    position: relative;
+    margin-top: 150px;
+}
+
+.menu-opcoes ul li a:hover {
+    color: brown;
+}
+
+.frase {
+    color: burlywood;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.caixatexto {
+    padding: 5px;
+    width: 40%;
+    height: 30px;
+    border: none;
+}
+
+.bot {
+    background-color: chocolate;
+    color: white;
+    border: none;
+    width: 20%;
+    height: 30px;
+}
+
+.bot2 {
+    background-color: lightskyblue;
+    color: black;
+    border: none;
+    width: 150%;
+    height: 100px;
+}
+
+.bot:hover {
+    opacity: 0.5;
+}
+
+.logoprinc {
+    width: 150px;
+    height: 150px;
+}
+
+.cardapio {
+    background: url(FundoCardapio2.jpg);
+}
+
+.cardapio ul li {
+    text-decoration: none;
+}
+.proteinas {
+    background-color: #8B636C;
+    margin-left:10px;
+}
+
+.proteinas p {
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.acompanhamentos {
+    background-color: #8B3A62;
+    margin-left:10px;
+}
+.acompanhamentos p{
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.massas {
+    background-color:#8B636C;
+    margin-left:10px;
+}
+
+.massas p {
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.sobremesas {
+    background-color:#8B3A62;
+    margin-left:10px;
+}
+.sobremesas p{
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.bebidas {
+    background-color:#8B636C;
+    margin-left:10px;
+}
+.bebidas p {
+    margin-left:50px;
+    margin-right:50px;
+}
+ul {
+     list-style-type:none
+ }
+h1{
+    color:darkslategrey;
+    font-family: Kunstler Script;
+    font-size: 100px;
+}
+
+input [type="checkbox"]{
+    
+}
+
+.frase1{
+    color:darkslategray;
+    font-family: Monotype Corsiva;
+    font-size: 45px;
+}
+
+.frase2{
+    color: darkcyan;
+    font-family: Monotype Corsiva;
+    font-size: 25px;
+}

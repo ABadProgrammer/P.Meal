@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="utf-8">
+
+<head>
+    <title> Tela Principal P. Meal </title>
+    <link rel="stylesheet" href="estilizacao.css">
+    <script src="cardapio.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+    <header class="container">
+
+        <h1>
+            <dd><a href="TelaInicial.html"><img src="logo.png" alt="P. Meal" class="logoprinc" ></a></h1>
+        <nav class="menu-opcoes">
+            <ul>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <center>
+        <h1>Cardápio</h1>
+    </center>
+    <center>
+        <nav class="cardapio">
+            <table>
+                <td>
+                    <section class="proteinas">
+                        <p><center>Proteínas</center></p>
+                        <ul>
+                            <li>Frango Assado<input type="checkbox" value="on" id="frngssd"></li>
+                            <li>Frango Cozido <input type="checkbox" value="on" id="frngczd"></li>
+                            <li>Frango Frito <input type="checkbox" value="on" id="frngfrt"></li>
+                            <li>Peru Assado <input type="checkbox" value="on" id="prssd"></li>
+                            <li>Carne Bovina Cozida <input type="checkbox" value="on" id="crnbvnczd"></li>
+                            <li>Carne Bovina Assada <input type="checkbox" value="on" id="crnbvnssd"></li>
+                            <li>Bisteca de Porco Assada <input type="checkbox" value="on" id="bstcdprcssd"></li>
+                            <li>Linguiça <input type="checkbox" value="on" id="lngç"></li>
+                            <li>Calabresa <input type="checkbox" value="on" id="clbrs"></li>
+                            <li>Chouriço <input type="checkbox" value="on" id="chrc"></li>
+                        </ul>
+                    </section>
+                </td>
+                <td>
+                    <section class="acompanhamentos">
+                        <p><center>Acompanhamentos</center></p>
+                        <ul>
+                            <li>Salada <input type="checkbox" value="on" id="sld"></li>
+                            <li>Arroz <input type="checkbox" value="on" id="rrz"></li>
+                            <li>Feijão Carioca<input type="checkbox" value="on" id="fjcrc"></li>
+                            <li>Feijão de Praia <input type="checkbox" value="on" id="fjdpr"></li>
+                            <li>Feijão de Preto <input type="checkbox" value="on" id="fjprt"></li>
+                            <li>Purê de Batata <input type="checkbox" value="on" id="prdbtt"></li>
+                            <li>Maionese <input type="checkbox" value="on" id="prdbtt"></li>
+                            <li>VinaGretchen <input type="checkbox" value="on" id="vngrt"></li>
+                            <li>Farofa <input type="checkbox" value="on" id="frf"></li>
+                            <li>Vatapá <input type="checkbox" value="on" id="vtp"></li>
+                        </ul>
+                    </section>
+                </td>
+                <td>
+                    <section class="massas">    
+                        <p><center>Massas</center></p>
+                        <ul>
+                            <li>Panqueca <input type="checkbox" value="on" id="pnqc"></li>
+                            <li>Lasanha <input type="checkbox" value="on" id="lsnh"></li>
+                            <li>Nhoque <input type="checkbox" value="on" id="nhq"></li>
+                            <li>Crepe <input type="checkbox" value="on" id="crp"></li>
+                            <li>Pastel <input type="checkbox" value="on" id="pstl"></li>
+                            <li>Canelone <input type="checkbox" value="on" id="cnln"></li>
+                            <li>Macarrão Espaguete <input type="checkbox" value="on" id="mcrrspgt"></li>
+                            <li>Macarrão Parafuso <input type="checkbox" value="on" id="mcrrprfs"></li>
+                            <li>Espargos <input type="checkbox" value="on" id="sprgs"></li>
+                            <li>Macarronada <input type="checkbox" value="on" id="mcrrnd"></li>
+                        </ul>
+                        
+                    </section>
+                </td>
+                <td>
+                    <section class="sobremesas">
+                        <p><center>Sobremesas</center></p>
+                        <ul>
+                            <li>Bolo de Chocolate <input type="checkbox" value="on" id="bldchclt"></li>
+                            <li>Bolo Prestígio <input type="checkbox" value="on" id="blprstg"></li>
+                            <li>Bolo de Laranja <input type="checkbox" value="on" id="bllrnj"></li>
+                            <li>Bolo de Cenoura <input type="checkbox" value="on" id="blcnr"></li>
+                            <li>Torta de Morango <input type="checkbox" value="on" id="trtdmrng"></li>
+                            <li>Brigadeiro <input type="checkbox" value="on" id="brgdr"></li>
+                            <li>Petit Gateau <input type="checkbox" value="on" id="pttgt"></li>
+                            <li>Sorvete de Chocolate <input type="checkbox" value="on" id="srvtdchclt"></li>
+                            <li>Pudim de Chocolate <input type="checkbox" value="on" id="pdmdchclt"></li>
+                            <li>Pudim de Leite <input type="checkbox" value="on" id="pdmdlt"></li>
+                        </ul>
+                    </section>
+                </td>
+                <td>
+                    <section class="bebidas">
+                        <p><center>Bebidas</center></p>
+                        <ul>
+                            <li>Pepsi Colanadelrey <input type="checkbox" value="on" id="ppsldr"></li>
+                            <li>Água Mineral <input type="checkbox" value="on" id="gmnrl"></li>
+                            <li>Leite <input type="checkbox" value="on" id="lt"></li>
+                            <li>Chá Gelado<input type="checkbox" value="on" id="chgld"></li>
+                            <li>Suco de Uva <input type="checkbox" value="on" id="scdv"></li>
+                            <li>Suco de Maracujá <input type="checkbox" value="on" id="scdmrcj"></li>
+                            <li>Suco de Morango <input type="checkbox" value="on" id="scdmrng"></li>
+                            <li>Suco de Cupuaçu <input type="checkbox" value="on" id="scdcpç"></li>
+                            <li>Suco de Morango <input type="checkbox" value="on" id="scdmrng"></li>
+                            <li>Chá de Maracujá <input type="checkbox" value="on" id="chdmrcj"></li>
+                        </ul>
+                    </section>
+                </td>
+            </table>
+
+        </nav>
+    </center>
+
+    <br>
+    <br>
+    <center><button type="submit" class="bot">Finalizar Prato</button>
+        <button type="reset" class="bot"><center>Cancelar</center></button></center>
+    <footer>
+        <div class="container">
+            <center>&copy;2017 Copyright Perfect Meal</center>
+        </div>
+    </footer>
+
+</body>
+
+</html>

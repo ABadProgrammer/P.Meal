@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<HTML lang="pt-br">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<head>
+    <title> Tela de Cadastro P. Meal </title>
+    <link rel="stylesheet" href="estilizacao.css">
+</head>
+
+<body>
+    <script src="validar.js" type="text/javascript"></script>
+    <header class="container">
+
+        <h1>
+            <dd><a href="TelaInicial.html"><img src="logo.png" alt="P. Meal" class="logoprinc" ></a></h1>
+        <nav class="menu-opcoes">
+            <ul>
+                <li><a href="TelaDeLogin.html">Login</a></li>
+                <li><a href="TelaDeCadastro.html">Cadastro</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <p>
+        <font size=6px style="color:black">
+            <center> Cadastro </center>
+        </font>
+    </p>
+
+    <center>
+        <form name="cadastro">
+            <label>
+			<center style="color:black">Nome</center>
+		</label>
+            <center>
+                <input type="text" class="caixatexto" placeholder="Insira seu nome" name="nome" required>
+            </center>
+            <br>
+            <label>
+			<center style="color:black">Email</center>
+		</label>
+            <center>
+                <input type="email" class="caixatexto" placeholder="Insira seu email" name="email" required>
+            </center>
+            <br>
+            <label>
+                <center style="color:black">CEP</center>
+            </label>
+            <center>
+                <input type="text" class="caixatexto" placeholder="Insira seu CEP" name="CEP" required>
+            </center>
+            <br>
+            <label>
+			<center style="color:black">Senha</center>
+		</label>
+            <center>
+                <input type="password" class="caixatexto" placeholder="Insira sua senha" name="senha" required>
+            </center>
+            <br>
+            <label>
+			<center style="color:black">Confirmar Senha</center>
+		</label>
+
+            <center>
+                <input type="password" class="caixatexto" placeholder="Insira sua senha novamente" name="confsenha" required>
+            </center>
+            <br>
+            <center>
+                <button class="bot" onclick="validar()"><center><a class="linkentrar" href="TelaPrinc.html">Entrar</a></center></button>
+                <button type="reset" class="bot"><center>Cancelar</center></button>
+            </center>
+        </form>
+    </center>
+
+    <footer>
+        <div class="container">
+            <center>&copy;2017 Copyright Perfect Meal</center>
+        </div>
+    </footer>
+
+</body>
+
+</HTML>
